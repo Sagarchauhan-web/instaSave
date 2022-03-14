@@ -36,5 +36,5 @@ app.get('/instagram/video', insta_video);
 app.get('/instagram/image', insta_image);
 
 app.listen(process.env.port || 8080, () => {
-  console.log('Server running at ' + port);
+  console.log('Server running at ');
 });
